@@ -1,0 +1,40 @@
+[
+{
+	"email" : "sagarindurepatil@gmail.com",
+	"password" : "Circuit@#32",
+	"desiredItemName" : "Radiant Tee",
+	"desiredSizeName" : "M",
+	"desiredColor" : "Orange",
+	"desiredQty" : "1",
+	"expectedCartMsg" : "You added Radiant Tee to your shopping cart.",
+	"expectedConfirmationMessage" : "Thank you for your purchase!",
+	"companyName" : "Devberry"
+},
+{
+	"email" : "indurepatil@gmail.com",
+	"password" : "Circuit#@23",
+	"desiredItemName" : "Hero Hoodie",
+	"desiredSizeName" : "L",
+	"desiredColor" : "Gray",
+	"desiredQty" : "1",
+	"expectedCartMsg" : "You added Hero Hoodie to your shopping cart.",
+	"expectedConfirmationMessage" : "Thank you for your purchase!",
+	"companyName" : "Devberry"
+	
+},
+
+{
+	"email" : "demo@admin.com",
+	"password" : "Demo@admin",
+	"desiredItemName" : "Argus All-Weather Tank",
+	"desiredSizeName" : "L",
+	"desiredColor" : "Gray",
+	"desiredQty" : "1",
+	"expectedCartMsg" : "You added Argus All-Weather Tank to your shopping cart.",
+	"expectedConfirmationMessage" : "Thank you for your purchase!",
+	"companyName" : "DevberryAdmin"
+	
+}	
+	
+	
+]

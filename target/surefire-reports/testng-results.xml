@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T19:19:22 IST" name="suite" finished-at="2025-08-16T19:19:44 IST" duration-ms="21586">
+    <groups>
+    </groups>
+    <test started-at="2025-08-16T19:19:22 IST" name="Login Error Validation" finished-at="2025-08-16T19:19:27 IST" duration-ms="4769">
+      <class name="devberry.Tests.LoginErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:devberry.Tests.LoginErrorValidation@24111ef1]" started-at="2025-08-16T19:19:22 IST" name="launchApplication" finished-at="2025-08-16T19:19:26 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidUserEmail()[pri:0, instance:devberry.Tests.LoginErrorValidation@24111ef1]" started-at="2025-08-16T19:19:26 IST" name="invalidUserEmail" finished-at="2025-08-16T19:19:27 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:devberry.Tests.LoginErrorValidation@24111ef1]" started-at="2025-08-16T19:19:27 IST" name="tearDown" finished-at="2025-08-16T19:19:27 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- devberry.Tests.LoginErrorValidation -->
+    </test> <!-- Login Error Validation -->
+    <test started-at="2025-08-16T19:19:22 IST" name="Submit Order" finished-at="2025-08-16T19:19:44 IST" duration-ms="21586">
+      <class name="devberry.Tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:22 IST" name="launchApplication" finished-at="2025-08-16T19:19:26 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:26 IST" name="submitOrderTest" data-provider="getData" finished-at="2025-08-16T19:19:34 IST" duration-ms="8621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Circuit@#32, desiredQty=1, companyName=Devberry, desiredSizeName=M, expectedConfirmationMessage=Thank you for your purchase!, desiredItemName=Radiant Tee, desiredColor=Orange, expectedCartMsg=You added Radiant Tee to your shopping cart., email=sagarindurepatil@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:34 IST" name="tearDown" finished-at="2025-08-16T19:19:34 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:34 IST" name="launchApplication" finished-at="2025-08-16T19:19:36 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:36 IST" name="submitOrderTest" data-provider="getData" finished-at="2025-08-16T19:19:44 IST" duration-ms="7448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Circuit#@23, desiredQty=1, companyName=Devberry, desiredSizeName=L, expectedConfirmationMessage=Thank you for your purchase!, desiredItemName=Hero Hoodie, desiredColor=Gray, expectedCartMsg=You added Hero Hoodie to your shopping cart., email=indurepatil@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:devberry.Tests.SubmitOrder@484094a5]" started-at="2025-08-16T19:19:44 IST" name="tearDown" finished-at="2025-08-16T19:19:44 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- devberry.Tests.SubmitOrder -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- suite -->
+</testng-results>

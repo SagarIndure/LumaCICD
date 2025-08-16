@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T12:24:53 IST" name="Default suite" finished-at="2025-07-13T12:25:22 IST" duration-ms="29529">
+    <groups>
+    </groups>
+    <test started-at="2025-07-13T12:24:53 IST" name="Default test" finished-at="2025-07-13T12:25:22 IST" duration-ms="29529">
+      <class name="devberry.Tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:24:53 IST" name="launchApplication" finished-at="2025-07-13T12:25:01 IST" duration-ms="8336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:25:01 IST" name="submitOrder" data-provider="getData" finished-at="2025-07-13T12:25:10 IST" duration-ms="8679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Circuit@#32, desiredQty=1, companyName=Devberry, desiredSizeName=M, expectedConfirmationMessage=Thank you for your purchase!, desiredItemName=Radiant Tee, desiredColor=Orange, expectedCartMsg=You added Radiant Tee to your shopping cart., email=sagarindurepatil@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:25:10 IST" name="tearDown" finished-at="2025-07-13T12:25:10 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:25:10 IST" name="launchApplication" finished-at="2025-07-13T12:25:11 IST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:25:11 IST" name="submitOrder" data-provider="getData" finished-at="2025-07-13T12:25:22 IST" duration-ms="10891" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Circuit#@23, desiredQty=1, companyName=Devberry, desiredSizeName=L, expectedConfirmationMessage=Thank you for your purchase!, desiredItemName=Hero Hoodie, desiredColor=Gray, expectedCartMsg=You added Hero Hoodie to your shopping cart., email=indurepatil@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to be "https://magento247-pub.test/checkout/#payment". Current url: "https://magento247-pub.test/checkout/#shipping" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/8z/qns52jjd1b1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64672/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e5e07426bcd0648fe21422826ae4b9d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://magento247-pub.test/checkout/#payment". Current url: "https://magento247-pub.test/checkout/#shipping" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/8z/qns52jjd1b1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64672/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e5e07426bcd0648fe21422826ae4b9d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at devberry.AbstractComponents.AbstractComponent.waitForPageLoad(AbstractComponent.java:90)
+at devberry.pageObjects.ShippingAddressPage.proceedToPayment(ShippingAddressPage.java:118)
+at devberry.Tests.SubmitOrder.submitOrder(SubmitOrder.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:devberry.Tests.SubmitOrder@235834f2]" started-at="2025-07-13T12:25:22 IST" name="tearDown" finished-at="2025-07-13T12:25:22 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- devberry.Tests.SubmitOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
