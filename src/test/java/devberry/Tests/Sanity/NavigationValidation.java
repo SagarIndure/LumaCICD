@@ -11,7 +11,5 @@ public class NavigationValidation extends BaseTest {
         landingPage.goTo();
         String pageTitle = landingPage.clickOnNavigationLink("What's New");
         Assert.assertTrue(pageTitle.contains("What's New"), "Navigation to 'What's New' section failed");
-         
-       
     }
 }
